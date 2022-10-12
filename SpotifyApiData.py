@@ -19,8 +19,8 @@ conda install -c conda-forge spotipy
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="0e58969e0fc64ff7ae10502c99ccc90a",
-                                                           client_secret="6ba5290e0a104d53a21d3ffbede39c57"))
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="CLIENT_ID",
+                                                           client_secret="CLIENT_SECRET"))
 
 
 # In[204]:
